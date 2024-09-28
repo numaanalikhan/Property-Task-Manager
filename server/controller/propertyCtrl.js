@@ -14,11 +14,9 @@ const addProperty =async (req,res)=>{
 
 const getProperty = async (req,res)=>{
     try{
-        // var id = req.params;
-        var properties =  await propertyModel.find();
-        res.status(200).json(properties);
+       res.status(200).send(await propertyModel.find());
     }catch(err){
-        res.status.send(err);
+        res.status(500).send("Inrernal server error");
     }
 }
 

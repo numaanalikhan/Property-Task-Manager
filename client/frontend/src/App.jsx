@@ -15,7 +15,7 @@ function App (){
         </Routes>
         <footer className="bg-blue-500 text-white py-6">
                 <div className="max-w-6xl mx-auto px-4 text-center">
-                    <p>&copy; {new Date().getFullYear()} Waqf Property Task Tracker. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()}  Property Task Manager. All rights reserved.</p>
                 </div>
             </footer>
         </>
